@@ -19,3 +19,7 @@ open http://127.0.0.1:3000/dist/
 * Then, the `monaco-editor/esm/vs/nls.js` file is patched to contain all of these strings.
 * As a consumer of the editor, you need to define `self.MONACO_LANGUAGE` before loading the source code for the editor
   * Supported values: `"de", "en", "es", "fr", "it", "ja", "ko", "ru", "zh-cn", "zh-tw"
+
+### What's the catch?
+
+* The catch is that this solution will bundle all languages used in the editor, so that is why this isn't the official solution. You can take inspiration from this sample and write your own `nls.js` script which matches the logic you have for localizing other parts of your code. Good luck!
