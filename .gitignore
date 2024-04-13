@@ -1,3 +1,5 @@
 /node_modules/
-/dist/
-!/dist/index.html
+/dist/*/**
+/dist/*.ttf
+/dist/*.css
+/dist/*.js
