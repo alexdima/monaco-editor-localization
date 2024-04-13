@@ -18,7 +18,7 @@ open http://127.0.0.1:3000/dist/
 * The solution consists of scanning the `/amd/` distribution of the monaco editor and creating a mapping from all English strings to translated strings.
 * Then, the `monaco-editor/esm/vs/nls.js` file is patched to contain all of these strings.
 * As a consumer of the editor, you need to define `self.MONACO_LANGUAGE` before loading the source code for the editor
-  * Supported values: `"de", "en", "es", "fr", "it", "ja", "ko", "ru", "zh-cn", "zh-tw"
+  * Supported values: `"de", "en", "es", "fr", "it", "ja", "ko", "ru", "zh-cn", "zh-tw"`
 
 ### What's the catch?
 
