@@ -1,0 +1,15 @@
+{
+  "name": "monaco-editor-localization",
+  "version": "1.0.0",
+  "description": "Sample showing localization for the Monaco Editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "monaco-editor": "^0.47.0"
+  }
+}
